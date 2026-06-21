@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MainCrafts Technology – Build Smarter</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="logo-mark">M</div>
+    Main<span class="logo-dot">Crafts</span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li class="dropdown">
+      <a href="#services">Services <i class="fa-solid fa-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#services"><i class="fa-solid fa-code"></i> Web Development</a></li>
+        <li><a href="#services"><i class="fa-solid fa-mobile-screen"></i> Mobile Apps</a></li>
+        <li><a href="#services"><i class="fa-solid fa-robot"></i> AI Integration</a></li>
+        <li><a href="#services"><i class="fa-solid fa-cloud"></i> Cloud Solutions</a></li>
+        <li><a href="#services"><i class="fa-solid fa-shield-halved"></i> Cybersecurity</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Get Started</a></li>
+  </ul>
+
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#home" class="mob-link">Home</a>
+  <a href="#features" class="mob-link">Features</a>
+  <a href="#services" class="mob-link">Services</a>
+  <a href="#services" class="m-sub mob-link">↳ Web Development</a>
+  <a href="#services" class="m-sub mob-link">↳ Mobile Apps</a>
+  <a href="#services" class="m-sub mob-link">↳ AI Integration</a>
+  <a href="#services" class="m-sub mob-link">↳ Cloud Solutions</a>
+  <a href="#contact" class="mob-link">Contact</a>
+  <a href="#contact" class="m-cta mob-link">Get Started →</a>
+</div>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section id="home">
+  <div class="hero-content">
+    <div class="hero-badge"><span></span> Now Accepting New Projects</div>
+
+    <h1 class="hero-h1">
+      Build Smarter with<br/>
+      <span class="gradient-text">MainCrafts</span>
+    </h1>
+
+    <p class="hero-sub">
+      We design, develop, and deploy world-class digital products. From startups to enterprises — your vision, crafted with precision.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">
+        <i class="fa-solid fa-rocket"></i> Get Started
+      </a>
+      <a href="#features" class="btn-ghost">
+        <i class="fa-solid fa-play"></i> See How It Works
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">200+</div>
+        <div class="stat-label">Projects Delivered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">99.9%</div>
+        <div class="stat-label">Uptime SLA</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4.9★</div>
+        <div class="stat-label">Avg. Rating</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FEATURES ══════════════ -->
+<section id="features">
+  <div class="section-head reveal">
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">Everything you need to <br/>scale your product</h2>
+    <p class="section-desc">Built for speed, crafted for scale — our stack gives you the competitive edge.</p>
+  </div>
+
+  <div class="features-grid">
+    <div class="feat-card reveal">
+      <div class="feat-icon"><i class="fa-solid fa-bolt"></i></div>
+      <div class="feat-title">Lightning Fast</div>
+      <p class="feat-desc">Sub-second load times with edge deployment, lazy loading, and optimized asset delivery pipelines.</p>
+    </div>
+
+    <div class="feat-card c-cyan reveal">
+      <div class="feat-icon"><i class="fa-solid fa-layer-group"></i></div>
+      <div class="feat-title">Fully Responsive</div>
+      <p class="feat-desc">Pixel-perfect on every device — mobile, tablet, desktop. Adaptive layouts that just work.</p>
+    </div>
+
+    <div class="feat-card c-amber reveal">
+      <div class="feat-icon"><i class="fa-solid fa-chart-line"></i></div>
+      <div class="feat-title">Infinitely Scalable</div>
+      <p class="feat-desc">Cloud-native architecture with auto-scaling pods. Handle millions of users without breaking a sweat.</p>
+    </div>
+
+    <div class="feat-card c-rose reveal">
+      <div class="feat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div class="feat-title">Enterprise Security</div>
+      <p class="feat-desc">End-to-end encryption, SOC2 compliance, penetration testing, and 24/7 threat monitoring built in.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SERVICES ══════════════ -->
+<section id="services">
+  <div class="services-wrap">
+    <div class="services-visual reveal">
+      <div class="orb">
+        <div class="orb-ring"></div>
+        <div class="orb-dot"></div>
+        <div class="orb-dot d2"></div>
+        <div class="orb-dot d3"></div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">What we build for you</h2>
+      <p class="section-desc" style="margin-bottom:2.5rem;">A full-spectrum tech partner — from idea to production and beyond.</p>
+
+      <ul class="services-list">
+        <li class="svc-item">
+          <div class="svc-item-icon"><i class="fa-solid fa-code"></i></div>
+          <div>
+            <div class="svc-item-title">Web Development</div>
+            <p class="svc-item-desc">React, Next.js, Vue — modern SPAs and full-stack apps optimised for performance.</p>
+          </div>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <div>
+            <div class="svc-item-title">Mobile Applications</div>
+            <p class="svc-item-desc">Cross-platform apps with React Native and Flutter, shipped to iOS & Android simultaneously.</p>
+          </div>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-icon"><i class="fa-solid fa-robot"></i></div>
+          <div>
+            <div class="svc-item-title">AI Integration</div>
+            <p class="svc-item-desc">LLM-powered features, recommendation engines, and intelligent automation baked into your product.</p>
+          </div>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-icon"><i class="fa-solid fa-cloud"></i></div>
+          <div>
+            <div class="svc-item-title">Cloud & DevOps</div>
+            <p class="svc-item-desc">AWS / GCP infrastructure, CI/CD pipelines, Docker, Kubernetes — zero-downtime deployments.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA BANNER ══════════════ -->
+<div class="cta-banner reveal" id="contact">
+  <h2>Ready to build something <span class="cta-gradient-text">extraordinary?</span></h2>
+  <p>Join 50+ teams already shipping faster with MainCrafts Technology.</p>
+  <a href="mailto:hello@maincrafts.in" class="btn-primary" style="display:inline-flex;">
+    <i class="fa-solid fa-paper-plane"></i> Apply Now
+  </a>
+</div>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="brand-name">
+        <div class="footer-logo-mark">M</div>
+        Main<span class="logo-dot">Crafts</span>
+      </div>
+      <p>Building smarter digital products for ambitious companies around the world.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Press Kit</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Web Development</a></li>
+        <li><a href="#services">Mobile Apps</a></li>
+        <li><a href="#services">AI Integration</a></li>
+        <li><a href="#services">Cloud & DevOps</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 MainCrafts Technology. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
