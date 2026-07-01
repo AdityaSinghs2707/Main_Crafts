@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Aditya Singh | Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="tabbar">
+  <div class="tabbar__inner">
+    <div class="tabbar__brand"><span>⚡</span> maincrafts.task2</div>
+    <div class="tabbar__tabs">
+      <a href="index.html" class="tab"><span class="tab__dot"></span>index.html</a>
+      <a href="about.html" class="tab"><span class="tab__dot"></span>about.html</a>
+      <a href="contact.html" class="tab active"><span class="tab__dot"></span>contact.html</a>
+    </div>
+    <button class="tabbar__menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="contact-hero">
+    <p class="eyebrow">// contact.html</p>
+    <h1>Let's talk.</h1>
+    <p class="lead">Have a project, an internship query, or just want to say hi — drop a message and I'll reply as soon as I can.</p>
+  </section>
+
+  <section class="contact-wrap">
+    <div class="contact-info">
+      <div class="item">
+        <span class="label">// email</span>
+        <strong>adi6398668201singh@gmail.com</strong>
+      </div>
+      <div class="item">
+        <span class="label">// based in</span>
+        <strong>Haldwani, Uttarakhand, India</strong>
+      </div>
+      <div class="item">
+        <span class="label">// currently</span>
+        <strong>Full Stack Intern @ MainCrafts Technology</strong>
+      </div>
+      <div class="item">
+        <span class="label">// response time</span>
+        <strong>Usually within 1–2 days</strong>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="terminal__bar">
+        <span></span><span></span><span></span>
+        <span class="terminal__title">message.send()</span>
+      </div>
+      <form name="contactForm" onsubmit="return validateForm()">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send message</button>
+        <p class="form-note" id="formNote">Name and email are required.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Aditya Singh — Full Stack Web Development Internship, MainCrafts Technology</p>
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

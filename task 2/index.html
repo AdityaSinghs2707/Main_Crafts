@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home — Aditya Singh | Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="tabbar">
+  <div class="tabbar__inner">
+    <div class="tabbar__brand"><span>⚡</span> maincrafts.task2</div>
+    <div class="tabbar__tabs">
+      <a href="index.html" class="tab active"><span class="tab__dot"></span>index.html</a>
+      <a href="about.html" class="tab"><span class="tab__dot"></span>about.html</a>
+      <a href="contact.html" class="tab"><span class="tab__dot"></span>contact.html</a>
+    </div>
+    <button class="tabbar__menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">// portfolio.dev — task 2 / multi-page site</p>
+      <h1>I build fast, <span class="hl">responsive</span> web experiences.</h1>
+      <p class="lead">B.Tech CSE student and Full Stack Web Development Intern at MainCrafts Technology, currently learning the MERN stack one page — and one commit — at a time.</p>
+      <div class="hero__cta">
+        <a href="contact.html" class="btn btn--primary">Get in touch →</a>
+        <a href="about.html" class="btn btn--ghost">More about me</a>
+      </div>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal__bar">
+        <span></span><span></span><span></span>
+        <span class="terminal__title">profile.js</span>
+      </div>
+      <div class="terminal__body" id="typedCode"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <p class="eyebrow">// what this site demonstrates</p>
+      <h2>Built for Task 2: multi-page navigation, forms &amp; validation.</h2>
+    </div>
+
+    <div class="grid-3">
+      <div class="card">
+        <p class="card__num">01</p>
+        <h3>Page Linking</h3>
+        <p>Three connected pages — Home, About, and Contact — sharing one consistent navbar and layout system.</p>
+      </div>
+      <div class="card">
+        <p class="card__num">02</p>
+        <h3>Form Handling</h3>
+        <p>A contact form that checks required fields with JavaScript before it lets the message through.</p>
+      </div>
+      <div class="card">
+        <p class="card__num">03</p>
+        <h3>Responsive Layout</h3>
+        <p>CSS Grid and Flexbox keep everything readable, from a wide desktop screen down to a phone.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Aditya Singh — Full Stack Web Development Internship, MainCrafts Technology</p>
+    <div class="foot-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
